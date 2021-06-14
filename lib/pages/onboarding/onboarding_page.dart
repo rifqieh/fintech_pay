@@ -21,10 +21,11 @@ class OnboardingPage extends StatelessWidget {
             ),
             Center(
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  SizedBox(
-                    height: 80,
-                  ),
+                  // SizedBox(
+                  //   height: 80,
+                  // ),
                   Image.asset(
                     'assets/image_onboarding.png',
                     width: 355,
