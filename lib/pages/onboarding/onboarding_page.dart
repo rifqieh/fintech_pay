@@ -1,4 +1,3 @@
-import 'package:fintech_pay/pages/home/home_page.dart';
 import 'package:fintech_pay/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -58,14 +57,7 @@ class OnboardingPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => HomePage(),
-                            ),
-                          );
-                        },
+                        onTap: () {},
                         child: Container(
                           padding: EdgeInsets.symmetric(
                             horizontal: 48,
