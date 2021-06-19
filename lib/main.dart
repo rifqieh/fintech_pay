@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/onboarding/onboarding_page.dart';
+import 'pages/home/home_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OnboardingPage(),
+      home: HomePage(),
     );
   }
 }
